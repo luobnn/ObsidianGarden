@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "LBN的知识库",
+    pageTitle: "Garden",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -17,7 +17,6 @@ const config: QuartzConfig = {
     },    
     baseUrl: "luobnn.github.io/ObsidianGarden",
     locale: "zh-CN",
-    contentDir: "content",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
